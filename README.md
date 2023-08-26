@@ -12,6 +12,7 @@ It uses a voltage transformer for voltage monitoring and includes a built-in pow
 
 It is firmware compatible with emonTx3 (with appropriate calibration settings). emonPlug-specific firmware, based on the emonTx3 firmware, is provided in this repository.
 
+# emonPlug Parts
 The CT is an AC1015 from Talema Group. It is rated to 15A with 1000:1 turn ratio.
 
 The voltage transformer is the ZMPT101B. This is the same transformer used in the emonVs. The current emonPlug is US-specific, so the 3x10K, 1/4W current-limiting resistors are designed to maximize the waveform of 120V AC. More resistance, more power dissipation, and a different burden resistor would be necessary for anyone modifying emonPlug for use with 240V AC outside the US.
@@ -19,6 +20,8 @@ The voltage transformer is the ZMPT101B. This is the same transformer used in th
 emonPlug uses the Polycase PM2425 AC wall plug enclosure with US 15 AMP 120 VAC plug configuration. https://www.polycase.com/pm2425.
 
 The emonPlug MCU is the Microchip ATMega328 and the radio is the HopeRF RFM69CW, similar to emonTx3.
+
+# emonPlug Photos
 
 ![emonCMS_output](https://github.com/brandock/emonPlug/assets/17953028/205c7103-57a2-43d5-aad7-303de3be4c93)
 
