@@ -20,6 +20,9 @@ emonPlug uses the Polycase PM2425 AC wall plug enclosure with US 15 AMP 120 VAC 
 
 The emonPlug MCU is the Microchip ATMega328 and the radio is the HopeRF RFM69CW, similar to emonTx3.
 
+![emonCMS_output](https://github.com/brandock/emonPlug/assets/17953028/205c7103-57a2-43d5-aad7-303de3be4c93)
+
+
 ![pm2425](https://github.com/brandock/emonPlug/assets/17953028/2f35ab60-ba14-44eb-bf13-9e893ec02936)
 
 ![IMG_3885](https://github.com/brandock/emonPlug/assets/17953028/8c611282-87d1-4add-9055-7dc4890a0534)
