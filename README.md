@@ -15,7 +15,7 @@ It uses a voltage transformer for voltage monitoring and includes a built-in pow
 It is firmware compatible with emonTx3 (with appropriate calibration settings). emonPlug-specific firmware, based on the emonTx3 firmware, is provided in this repository.
 
 # emonPlug Parts
-The CT is an AC1015 from Talema Group. It is rated to 15A with 1000:1 turn ratio.
+The CT is an AC1015 from Talema Group. It is rated to 15A with 1000:1 turn ratio. https://talema.com/wp-content/uploads/datasheets/AC.pdf
 
 The voltage transformer is the ZMPT101B. This is the same transformer used in the emonVs. The current emonPlug is US-specific, so the 3x10K, 1/4W current-limiting resistors are designed to maximize the waveform of 120V AC. More resistance, more power dissipation, and a different burden resistor would be necessary for anyone modifying emonPlug for use with 240V AC outside the US.
 
