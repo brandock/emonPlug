@@ -5,6 +5,8 @@ emonPlug is an energy monitoring transmitter unit that can monitor AC electrical
 
 emonPlug is designed to be used together with an emonBase web-connected base station from OpenEnergyMonitor. It can be thought of as an emonTx+emonVs for monitoring one appliance.
 
+Make sure to read the warning and disclaimer before starting any work on emonPlug assembly or use. 
+
 # emonPlug Architecture
 emonPlug uses a CT to perform non-invasive current monitoring, similar to emonTx from OpenEnergyMonitor. https://docs.openenergymonitor.org/emontx3/index.html
 
