@@ -1,5 +1,5 @@
 # emonPlug Overview
-OpenEnergyMonitor-compatible energy monitoring plug. 
+OpenEnergyMonitor-compatible energy monitoring US plug. 
 
 emonPlug is an energy monitoring transmitter unit that can monitor AC electrical consumption of one appliance connected to its NEMA 5-15R receptacle. 
 
