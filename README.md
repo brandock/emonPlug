@@ -14,6 +14,16 @@ It uses a voltage transformer for voltage monitoring and includes a built-in pow
 
 It is firmware compatible with emonTx3 (with appropriate calibration settings). emonPlug-specific firmware, based on the emonTx3 firmware, is provided in this repository.
 
+To use emonTx34_CM firmware change the following settings:
+
+float vCal_USA = 111.686;  
+float i1Cal = 14.68;                                       
+float i1Lead = 7.6;
+
+bool  USA=true;
+
+The emonPlug-specific firmware omits CTs 2, 3, and 4 and provides a more detailed packet for CT1: Vrms, Irms, PowerFactor, Frequency, LogPeriod, RealPower, ApparentPower, WattHours.
+
 # emonPlug Parts
 The CT is an AC1015 from Talema Group. It is rated to 15A with 1000:1 turn ratio. https://talema.com/wp-content/uploads/datasheets/AC.pdf
 
