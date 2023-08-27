@@ -59,3 +59,9 @@ Although as a whole, emonPlug is not UL/CSA/CE certified. It uses a certified po
 # Alternatives to emonPlug
 Switchbot Mini Plug with Tasmota is a good way to monitor energy consumption via emonBase through MQTT. https://templates.blakadder.com/switchbot_plugmini_W1901400.html
 The Tasmota firmware can be loaded without disassembling the unit. https://github.com/kendallgoto/switchbota/
+
+Felix Rusu once modified a Kill-a-Watt to transmit readings to an emonBase. https://lowpowerlab.com/tag/arduino/
+
+
+
+
