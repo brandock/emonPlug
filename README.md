@@ -47,4 +47,5 @@ emonPlug also requires programming prior to it being functional. The designer of
 Although as a whole, emonPlug is not UL/CSA/CE certified. It uses a certified power supply. However emonPlug comes with NO GUARANTEES expressed or implied and the designer is not liable for any injuries or damage caused by improper assembly or use of emonPlug. It may be against code to install non UL certified equipment in your area, so you are responsible to make sure you are compliant or take any risks on your own. If you do not agree or understand the terms of this disclaimer you should not use emonPlug. Use it at your own risk.
 
 # Alternatives to emonPlug
-Switchbot Mini Plug with Tasmota is a safe, easy way to monitor energy consumption via emonBase through MQTT. https://templates.blakadder.com/switchbot_plugmini_W1901400.html
+Switchbot Mini Plug with Tasmota is a good way to monitor energy consumption via emonBase through MQTT. https://templates.blakadder.com/switchbot_plugmini_W1901400.html
+The Tasmota firmware can be loaded without disassembling the unit. https://github.com/kendallgoto/switchbota/
